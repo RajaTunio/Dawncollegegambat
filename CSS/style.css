@@ -735,6 +735,93 @@ body {
 
 
 
+/* ----------MEMBERS ----------- */
+
+.members.section-text{ margin-block: 5px 35px;}
+
+.members-card{background-color: var(--white-2);}
+
+.members-card .card-banner{
+    overflow: hidden;
+    padding: 15px;
+}
+
+.members-card .card-banner img {
+    transition: var(--transition-2);
+    width: 100%;
+    height: 100%;
+    min-width: 5px;
+    border: 5px double gray;
+    border-radius: 50%;
+    
+
+}
+
+.members .container .view-btn{
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.members .container .m-grid-list{
+     display: grid;
+     gap: 10px;
+     grid-template-columns: repeat(2, 1fr);
+     
+}
+
+.members-card:is(:hover, :focus-within) .card-banner img{transform: scale(1.05);}
+
+.members-card .card-content{ padding: 0px 15px;}
+
+.members-card .time {
+    color: var(--red-crayola);
+    font-size: 15px;
+    line-height: 1;
+    margin-block: 10px 15px;
+}
+
+
+.members-card .card-title {
+    transition: var(--transition-1);
+    font-size: 15px;
+    
+}
+.members-card .card-subtitle {
+    transition: var(--transition-1);
+    font-size: 15px;
+    color: var(--red-crayola);
+    
+}
+
+.members-card .card-title:is(:hover, :focus) {color: var(--red-crayola);}
+
+
+
+
+.members-card{
+    border-radius: 15px;
+    width: 170px;
+    
+
+     
+}
+
+.members-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
 
 
 
